@@ -106,6 +106,7 @@ body{
     color: white;
 }
 .button-default{
+    cursor: pointer;
     background-color: white;
     color: #5f5f61;
     font-weight: 500;
