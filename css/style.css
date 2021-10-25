@@ -123,9 +123,33 @@ body{
     font-size: 14px;
     line-height: 23px;
 }
+.swiper{
+    position: relative;
+}
+.slider-buttons{
+    cursor: pointer;
+    display: flex;
+    width: 100px;
+    align-items:center;
+    justify-content: space-between;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    z-index: 9;
+}
 .slide-content{
     max-width: 400px;
     position: relative;
+}
+.slide-vitamin{
+    background-image: url("../img/vitamin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-autumn{
+    background-image: url("../img/autumn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slide-summer{
     background-image: url("../img/summer.png");
@@ -474,4 +498,243 @@ body{
 .social-links{
     text-decoration: none;
     margin-left: 20px;
+}
+@media(max-width:1260px){
+    .container{
+        max-width: 960px;
+    }
+    .auth{
+        margin-left: 25px;
+
+    }
+}
+@media(max-width:966px){
+    .container{
+        max-width: 760px;
+    }
+    .delivery-week{
+        padding: 0px 90px 40px 90px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .promo{
+        margin: -10px;
+        padding-bottom: 10px;
+    }
+    .card{
+        margin: 10px;
+    }
+    .category {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .tabs-content{
+        margin: 80px;
+        flex-wrap: wrap;
+    }
+    .section-title{
+        margin-bottom: 25px;
+    }
+    .tabs{
+        margin-bottom: -75px;
+        margin-left: 140px;
+    }
+    .cons-title{
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .cons{
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .button-center{
+        margin-top: -60px;
+    }
+    .cons-cards{
+        margin: 10px 80px 10px 80px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:766px){
+    .container{
+        max-width: 660px;
+    }
+    .slide{
+        padding: 25px;
+        min-height: fit-content;
+    }
+    .slider{
+        height: 290px;
+    }
+    .promo{
+        margin-top: -40px;
+    }
+    .delivery-card{
+        width: 225px;
+        height: 145px;
+    }
+    .tabs{
+        margin-left: 105px;
+        margin-bottom: -10px;
+    }
+    .tabs-content{
+        align-content: center;
+        margin: 30px;
+    }
+    .button-center{
+        margin-top: -10px;
+    }
+    .section-title{
+        line-height: 35px;
+    }
+    .cons-cards {
+        margin: 10px 10px 80px;
+    }
+}    
+@media(max-width: 662px){
+    .container{
+        max-width: 560px;
+    }
+    .header{
+        flex-wrap: wrap;
+    }
+    .search-form{
+        order: 5;
+        margin: 0%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .auth{
+        margin-left: 253px;
+    }
+    .promo {
+        margin-top: -30px;
+        flex-wrap: wrap;
+    }
+    .delivery-card{
+        width: 175px;
+    }
+    .tabs {
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+    .tabs-content {
+        margin: -20px;
+    }
+    .button-center {
+        margin-top: 35px;
+    }
+    .cons-cards {
+        margin: 10px -20px 80px;
+    }
+    .footer-link {
+        margin-right: 18px;
+    }
+}
+@media(max-width: 562px){
+    .container{
+        max-width: 320px;
+    }
+    .auth {
+        margin-left: 30px;
+    }
+    .shopping-cart{
+        margin-left: 10px;
+    }
+    .search-form{
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .slide {
+        margin: 5px;
+        height: 200px;
+    }
+    .slide-title {
+        margin-top: 10px;
+        margin-bottom: -44px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 42px;
+    }
+    .slide-text {
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .button-primary{
+        width: 278px;
+    }
+    .button{
+        text-align: center;
+    }
+    .slider-buttons {
+        cursor: pointer;
+        display: flex;
+        width: 279px;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        right: 17px;
+        bottom: 104px;
+        z-index: 9;
+    }
+    .promo{
+        margin-left: -5px;
+        margin-top: -135px;
+    }
+    .card{
+        height: fit-content;
+        min-height: 335px;
+    }
+    .delivery-week{
+        padding: 0;
+    }
+    .delivery-card{
+        width: 320px;
+        margin: 10px;
+    }
+    .delivery-cards{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .tabs{
+        margin-left: 10px;
+        justify-content: space-between;
+    }
+    .tabs-item{
+        margin-right: 10px;
+    }
+    .tabs-link{
+        margin-right: 0;
+    }
+    .tabs-content{
+        margin: 0;
+        margin-top: -30px;
+        margin-left: 5px;
+    }
+    .cons-cards {
+        margin: -30px 0px 80px;
+    }
+    .cons-title{
+        font-size: 25px;
+    }
+    .footer-logo{
+        max-width: 100px;
+        margin-right: 10px;
+    }
+    .footer-link{
+        margin-right: 0;
+    }
+    .social-media-links{
+        display: block
+    }
+    .social-links{
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
 }
